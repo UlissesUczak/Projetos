@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevNotes</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header>
+        <h1>DevNotes</h1>
+        <div id="search-container">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <input type="text" id="search-input" placeholder="Pesquisar notas">
+        </div>
+        <button id="export-notes"> Exportar CSV <span class="material-symbols-outlined">
+                download
+            </span></button>
+    </header>
+
+    <div id="add-note-container">
+        <input type="text" id="note-content" placeholder="O que deseja anotar?">
+        <button id="add-note"><span class="material-symbols-outlined">
+                add
+            </span></button>
+    </div>
+
+    <div id="notes-container">
+        <div class="note">
+            <textarea placeholder="Adicione algum texto"></textarea>
+            <span class="material-symbols-outlined" id="pin">
+                push_pin
+            </span>
+            <span class="material-symbols-outlined" id="del">
+                delete
+            </span>
+            <span class="material-symbols-outlined" id="copy">
+                file_copy
+            </span>
+        </div>
+
+        <div class="note">
+            <textarea placeholder="Adicione algum texto"></textarea>
+            <span class="material-symbols-outlined" id="pin">
+                push_pin
+            </span>
+            <span class="material-symbols-outlined" id="del">
+                delete
+            </span>
+            <span class="material-symbols-outlined" id="copy">
+                file_copy
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>
